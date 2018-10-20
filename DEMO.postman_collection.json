@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "58d79a3c-0070-4a71-9dd0-db85a89c2204",
+		"name": "DEMO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "addUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "babo",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "rajjjariwala5976@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "profile",
+							"value": "",
+							"type": "file"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/firestore-d3870/us-central1/addUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"firestore-d3870",
+						"us-central1",
+						"addUser"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
