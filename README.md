@@ -26,7 +26,7 @@ firebase deploy
 
 ## LIVE REST URL
 
-Explain how to run the automated tests for this system
+https://us-central1-firestore-d3870.cloudfunctions.net/addUser
 
 ### POSTMAN EXAMPLE
 
