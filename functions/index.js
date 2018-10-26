@@ -12,7 +12,7 @@ const gcs = new Storage({
   projectId: "firestore-d3870",
   keyFilename: "firestore-d3870-firebase-adminsdk-26igj-48018dc0ac.json"
 });
-
+   AF
 // firebase real-time database connection object 
 admin.initializeApp();	
 
